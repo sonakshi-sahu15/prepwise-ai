@@ -1,0 +1,144 @@
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background:#f4f6f8;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer {
+  background: #667eea;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* 🔹 Main container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #f4f6f8;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* 🔹 Headings */
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #555;
+}
+
+h4 {
+  margin: 8px 0;
+  color: #666;
+}
+
+/* 🔹 Question */
+.container h3:last-of-type {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* 🔹 Input box */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.container h3,
+.container h4 {
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* 🔹 Buttons */
+button {
+  padding: 10px 15px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #667eea;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5a67d8;
+  transform: scale(1.05);
+}
+
+/* 🔹 Disabled button */
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* 🔹 Mic button special */
+button:first-of-type {
+  background: #38b2ac;
+}
+
+button:first-of-type:hover {
+  background: #2c9a94;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+
+/* 🔹 Timer */
+h4 span,
+.timer {
+  font-weight: bold;
+}
+
+/* 🔹 Result cards */
+.result-card {
+  text-align: left;
+  background: #f9f9f9;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border-left: 5px solid #667eea;
+}
+
+/* 🔹 Previous history */
+.container div h3 {
+  margin-top: 20px;
+}
+
+/* 🔹 Restart button */
+.container button:last-of-type {
+  background: #e53e3e;
+}
+
+.container button:last-of-type:hover {
+  background: #c53030;
+}

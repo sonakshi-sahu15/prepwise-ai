@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 🤖 PrepWise AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ An AI-powered interview preparation web application that simulates real interview scenarios with timer-based questions, voice input, scoring system, and performance tracking.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+👉 Click here to view live app:  
+🔗 https://prepwise-ai-omega.vercel.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📸 Preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![PrepWise AI](./Screenshot 2026-04-14 165821.png)  
+![PrepWise AI](./Screenshot 2026-04-14 165855.png)  
+![PrepWise AI](./Screenshot 2026-04-16 141317.png)  
+![PrepWise AI](./Screenshot 2026-04-16 141358.png)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 📚 Topic-based question filtering  
+- 🔀 Randomized questions every session  
+- ⏱ Timer-based answering system (30 seconds per question)  
+- 🎤 Voice input using Web Speech API  
+- ⌨️ Manual typing input support  
+- 📊 Real-time progress tracking  
+- 🧮 Dynamic scoring system using keyword matching  
+- 🤖 Smart feedback (Perfect / Good / Improve)  
+- 💾 Save results in localStorage  
+- 📜 View previous interview history  
+- 🔄 Restart interview functionality  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ How It Works
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- User enters their name and selects an interview topic  
+- App loads and randomizes 5 relevant questions  
+- Timer starts for each question  
+- User answers using voice or text input  
+- Answers are evaluated using keyword matching logic  
+- Score is calculated dynamically  
+- Final result and feedback is shown  
+- Interview history is saved in localStorage  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ⚛️ React.js (useState, useEffect)  
+- 🎨 CSS  
+- 🎤 Web Speech API  
+- 💾 localStorage  
+- 🌐 JavaScript  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/sonakshi-sahu15/prepwise-ai.git
+cd prepwise-ai
+npm install
+npm run dev
